@@ -24,6 +24,9 @@ body{
   margin-bottom: 3%;
 }
 
+.cartoon{
+  width: 30%;
+}
 
 .img-sized{
 padding-left: 5px;
@@ -54,14 +57,22 @@ padding-right: 5px;
   /* display: inline-block; */
 }
 
+
+
 .input-field{
-  margin-left: 35px;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 25px;
   background-color: #ffe6f1;
   font-size: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
+}
+
+.input-field:focus{
+  background-color: white;
+  /* outline: 8px solid orange; */
 }
 
 .ending{
